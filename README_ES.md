@@ -1,7 +1,49 @@
 ﻿# 🪐 Plantilla de Espacio de Trabajo Google Antigravity (Edición Empresarial)
 
 ![License](https://img.shields.io/badge/License-MIT-green)
-![LangChain](https://img.shields.io/badge/LangChain-%F0%9F%9A%AB_Free-red)
+
+![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
+![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
+![Memory](https://img.shields.io/badge/Context-Infinite-orange)
+
+Bienvenido a la **Plantilla de Espacio de Trabajo Antigravity**. Es un kit de inicio de nivel producción para construir agentes autónomos en la plataforma Google Antigravity, totalmente alineado con la **Documentación Oficial de Antigravity** y orgullosamente “Anti-LangChain” por su arquitectura mínima y transparente.
+
+
+## 🌟 Filosofía del Proyecto
+
+En una era rica en IDEs de IA, quería lograr una arquitectura de nivel empresarial con solo **Clonar -> Renombrar -> Prompt**.
+
+Este proyecto aprovecha la conciencia del contexto del IDE (a través de `.cursorrules` y `.antigravity/rules.md`) para incrustar una **Arquitectura Cognitiva** completa directamente en los archivos del proyecto.
+
+Cuando abres este proyecto, tu IDE ya no es solo un editor; se transforma en un **Arquitecto "Conocedor"**.
+
+### ¿Por qué necesitamos un Andamiaje "Pensante"?
+
+Al usar Google Antigravity o Cursor para el desarrollo de IA, encontré un punto débil:
+
+**Los IDEs y los modelos son poderosos, pero los "proyectos vacíos" son débiles.**
+
+Cada vez que iniciamos un nuevo proyecto, repetimos configuraciones aburridas:
+- "¿Debería ir mi código en src o app?"
+- "¿Cómo defino las funciones de herramientas para que Gemini las reconozca?"
+- "¿Cómo hago que la IA recuerde el contexto?"
+
+Este trabajo repetitivo es un desperdicio de creatividad. Mi flujo de trabajo ideal es: **Git Clone -> El IDE ya sabe qué hacer.**
+
+Por eso creé este proyecto: **Antigravity Workspace Template**.
+
+## 🧠 Filosofía Central: Artifact-First (Artefacto-Primero)
+
+Este espacio de trabajo impone el protocolo **Artifact-First**. El Agente no solo escribe código; produce artefactos tangibles para cada tarea compleja.
+
+1. **Planificación**: Se crea `artifacts/plan_[task_id].md` antes de codificar.
+2. **Evidencia**: Los registros y salidas se guardan en `artifacts/logs/`.
+3. **Visuales**: Los cambios de UI generan capturas como artefactos.
+
+## 🛸 Cómo Funciona
+
+El agente sigue un bucle estricto de “Pensar-Actuar-Reflexionar”, simulando el proceso cognitivo de Gemini 3.
+
 ```mermaid
 sequenceDiagram
     participant User

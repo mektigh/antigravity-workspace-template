@@ -1,7 +1,48 @@
 ﻿# 🪐 Google Antigravity Workspace Template (Enterprise Edition)
 
 ![License](https://img.shields.io/badge/License-MIT-green)
-![LangChain](https://img.shields.io/badge/LangChain-%F0%9F%9A%AB_Free-red)
+![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
+![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
+![Memory](https://img.shields.io/badge/Context-Infinite-orange)
+
+Welcome to the **Antigravity Workspace Template**. This is a production-grade starter kit for building autonomous agents on the Google Antigravity platform, fully compliant with **Antigravity Official Documentation**—and proudly "Anti-LangChain" thanks to its minimal, transparent architecture.
+
+
+## 🌟 Project Philosophy
+
+In an era rich with AI IDEs, I wanted to achieve an enterprise-grade architecture with just **Clone -> Rename -> Prompt**.
+
+This project leverages the IDE's context awareness (via `.cursorrules` and `.antigravity/rules.md`) to embed a complete **Cognitive Architecture** directly into the project files.
+
+When you open this project, your IDE is no longer just an editor; it transforms into a **"Knowledgeable" Architect**.
+
+### Why do we need a "Thinking" Scaffold?
+
+When using Google Antigravity or Cursor for AI development, I found a pain point:
+
+**IDEs and models are powerful, but "empty projects" are weak.**
+
+Every time we start a new project, we repeat boring configurations:
+- "Should my code go in src or app?"
+- "How do I define tool functions so Gemini recognizes them?"
+- "How do I make the AI remember context?"
+
+This repetitive labor is a waste of creativity. My ideal workflow is: **Git Clone -> IDE already knows what to do.**
+
+So I created this project: **Antigravity Workspace Template**.
+
+## 🧠 Core Philosophy: Artifact-First
+
+This workspace enforces the **Artifact-First** protocol. The Agent does not just write code; it produces tangible outputs (Artifacts) for every complex task.
+
+1. **Planning**: `artifacts/plan_[task_id].md` is created before coding.
+2. **Evidence**: Logs and test outputs are saved to `artifacts/logs/`.
+3. **Visuals**: UI changes generate screenshot artifacts.
+
+## 🛸 How It Works
+
+The agent follows a strict "Think-Act-Reflect" loop, simulating the cognitive process of Gemini 3.
+
 ```mermaid
 sequenceDiagram
     participant User

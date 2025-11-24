@@ -1,22 +1,13 @@
 ﻿# 🪐 Google Antigravity 工作区模板（企业版）
 
 ![License](https://img.shields.io/badge/License-MIT-green)
-![LangChain](https://img.shields.io/badge/LangChain-%F0%9F%9A%AB_Free-red)
+
 ![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
 ![Memory](https://img.shields.io/badge/Context-Infinite-orange)
 
 欢迎使用 **Antigravity 工作区模板**。这是一个生产级的入门套件，用于在 Google Antigravity 平台上构建自主 Agent，完全符合 **Antigravity 官方文档**——并以极简、透明的架构自豪地成为 “Anti-LangChain”。
 
-## ⚡️ 为什么选择 Antigravity？
-
-别再和复杂框架搏斗。Antigravity 是脚手架，不是库。
-
-| 特性 | 传统框架（LangChain/Swarm） | Antigravity 脚手架 |
-| :--- | :--- | :--- |
-| **依赖** | 📦 **臃肿**：动辄数百 MB，依赖地狱。 | 🪶 **零臃肿**：仅需 `google-genai` + 标准库。 |
-| **可调试性** | 🕸️ **黑盒**：10 层抽象，排查艰难。 | 🔍 **透明**：纯 Python，每一行都看得见。 |
-| **控制力** | 🤖 **被动**：必须跟随它们的范式。 | 🕹️ **主动**：你掌控 `Think-Act` 循环。 |
 
 ## 🌟 项目初衷
 
