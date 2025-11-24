@@ -2,34 +2,6 @@
 
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![LangChain](https://img.shields.io/badge/LangChain-%F0%9F%9A%AB_Free-red)
-![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
-![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
-![Memory](https://img.shields.io/badge/Context-Infinite-orange)
-
-Welcome to the **Antigravity Workspace Template**. This is a production-grade starter kit for building autonomous agents on the Google Antigravity platform, fully compliant with **Antigravity Official Documentation**—and proudly "Anti-LangChain" thanks to its minimal, transparent architecture.
-
-## ⚡️ Why Antigravity?
-
-Stop fighting with frameworks. Antigravity is a scaffold, not a library.
-
-| Feature | Traditional Frameworks (LangChain/Swarm) | Antigravity Scaffold |
-| :--- | :--- | :--- |
-| **Dependencies** | 📦 **Bloated**: Hundreds of MBs, dependency hell. | 🪶 **Zero-Bloat**: Only `google-genai` and standard lib. |
-| **Debuggability** | 🕸️ **Black Box**: 10 layers of abstraction. | 🔍 **Transparent**: Pure Python, you see every line. |
-| **Control** | 🤖 **Passive**: You follow their paradigm. | 🕹️ **Active**: You own the `Think-Act` loop. |
-
-## 🧠 Core Philosophy: Artifact-First
-
-This workspace enforces the **Artifact-First** protocol. The Agent does not just write code; it produces tangible outputs (Artifacts) for every complex task.
-
-1. **Planning**: `artifacts/plan_[task_id].md` is created before coding.
-2. **Evidence**: Logs and test outputs are saved to `artifacts/logs/`.
-3. **Visuals**: UI changes generate screenshot artifacts.
-
-## 🛸 How It Works
-
-The agent follows a strict "Think-Act-Reflect" loop, simulating the cognitive process of Gemini 3.
-
 ```mermaid
 sequenceDiagram
     participant User

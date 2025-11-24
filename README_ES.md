@@ -2,34 +2,6 @@
 
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![LangChain](https://img.shields.io/badge/LangChain-%F0%9F%9A%AB_Free-red)
-![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
-![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
-![Memory](https://img.shields.io/badge/Context-Infinite-orange)
-
-Bienvenido a la **Plantilla de Espacio de Trabajo Antigravity**. Es un kit de inicio de nivel producción para construir agentes autónomos en la plataforma Google Antigravity, totalmente alineado con la **Documentación Oficial de Antigravity** y orgullosamente “Anti-LangChain” por su arquitectura mínima y transparente.
-
-## ⚡️ ¿Por qué Antigravity?
-
-Deja de pelear con frameworks. Antigravity es un andamiaje, no una librería.
-
-| Característica | Frameworks Tradicionales (LangChain/Swarm) | Andamiaje Antigravity |
-| :--- | :--- | :--- |
-| **Dependencias** | 📦 **Inflado**: Cientos de MB, infierno de dependencias. | 🪶 **Cero-bloat**: Solo `google-genai` y librería estándar. |
-| **Depurabilidad** | 🕸️ **Caja negra**: 10 capas de abstracción. | 🔍 **Transparente**: Python puro, ves cada línea. |
-| **Control** | 🤖 **Pasivo**: Sigues su paradigma. | 🕹️ **Activo**: Tú controlas el bucle `Think-Act`. |
-
-## 🧠 Filosofía Central: Artifact-First (Artefacto-Primero)
-
-Este espacio de trabajo impone el protocolo **Artifact-First**. El Agente no solo escribe código; produce artefactos tangibles para cada tarea compleja.
-
-1. **Planificación**: Se crea `artifacts/plan_[task_id].md` antes de codificar.
-2. **Evidencia**: Los registros y salidas se guardan en `artifacts/logs/`.
-3. **Visuales**: Los cambios de UI generan capturas como artefactos.
-
-## 🛸 Cómo Funciona
-
-El agente sigue un bucle estricto de “Pensar-Actuar-Reflexionar”, simulando el proceso cognitivo de Gemini 3.
-
 ```mermaid
 sequenceDiagram
     participant User
