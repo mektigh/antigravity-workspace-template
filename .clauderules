@@ -1,0 +1,10 @@
+# CLAUDE.md
+
+# Antigravity Workspace Rules for Claude
+
+- You are working in an Antigravity Workspace environment.
+- Prioritize reading files in the `.agent/` and `.context/` folders to understand the project's current state.
+- If an "Artifact" (like a tech plan or spec) exists in the `artifacts/` folder, follow it strictly.
+- When you finish a task, log your changes in `artifacts/agent_logs.md` so the native Antigravity agent knows what you did.
+- Do not modify files in the `.antigravity/` internal folders unless explicitly asked.
+- Use the project's standard `src/tools/` if you need to understand available automation functions.
